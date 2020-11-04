@@ -221,7 +221,7 @@ int main() {
   fflush(stdin);
   
   int ehNegativo = 0;
-  if (numero[0] == '0') ehNegativo = 1;
+  if (numero[0] == '-') ehNegativo = 1;
 
   char *n = (char*)malloc(1000*sizeof(char));
 
