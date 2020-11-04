@@ -1,0 +1,2 @@
+language = "c"
+run = "clear\ngcc -g program.c -o program -lm\n./program"
